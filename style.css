@@ -14,7 +14,8 @@ html {
 /* Navigation Bar */
 
 #nav-con {
-    display: flex;   
+    display: flex; 
+    flex-flow: row wrap;  
     justify-content: space-between;
 }
 
@@ -41,6 +42,7 @@ html {
 
 #head-con {
     display: flex;
+    flex-flow: row wrap;
 }
 
 .content {
@@ -119,7 +121,6 @@ html {
     flex: 1;
     padding: 3rem;
     margin: 3rem;
-
 }
 
 .con .about-right .illus {
@@ -198,6 +199,7 @@ html {
     background-color: hsl(238, 22%, 44%);
     color: #fff;
     justify-content: center;
+    flex-flow: row wrap;
     /* align-items: center; */
 }
 
@@ -252,6 +254,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
     color: #fff;
     background-color: hsl(243, 87%, 12%);
 }
