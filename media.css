@@ -298,11 +298,21 @@ input[type="email"] {
     /* text-align: justify; */
 }
 
+#foot .two a {
+    text-decoration: none;
+    color: #fff;
+}
+
 #foot .three {
     flex: 1;
     font-size: 1.7rem;
     padding: 2rem 3.5rem;
     line-height: 2.5;
+}
+
+#foot .three a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #foot .four {
@@ -319,5 +329,7 @@ input[type="email"] {
     padding: 1rem;
     margin: 1rem;
     font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
 }
 

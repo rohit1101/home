@@ -274,11 +274,21 @@ html {
     /* text-align: justify; */
 }
 
+#foot .two a {
+    text-decoration: none;
+    color: #fff;
+}
+
 #foot .three {
     flex: 1;
     font-size: 1.7rem;
     padding: 2rem 3rem;
     line-height: 1.8;
+}
+
+#foot .three a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #foot .four {
@@ -294,6 +304,8 @@ html {
     border-radius: 50%;
     padding: 2rem;
     margin: 1rem;
+    text-decoration: none;
+    color: #fff;
 }
 
 
