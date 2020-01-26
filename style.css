@@ -49,7 +49,19 @@ html {
     flex: 1;
     padding: 10rem 2rem;
     margin: 2rem;
+    border: 0.2rem solid #fff;
     /* font-size: 1.8rem; */
+    position: relative;
+    animation: card;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes card {
+    0%{left: -700rem}
+    100%{left: 0rem;}
 }
 
 .content h1 {
@@ -57,6 +69,7 @@ html {
     line-height: 1.2;
     /* font-weight: 700; */
 }
+
 
 .content p {
     font-size: 1.6rem;
@@ -88,6 +101,17 @@ html {
     flex: 1.5;
     padding: 2rem;
     margin: 2rem;
+    position: relative;
+    animation: img;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes img {
+    0%{right: -1000rem;}
+    100%{right: 0rem;}
 }
 
 .bg {
@@ -166,12 +190,29 @@ html {
 
 .con .card {
     /* border: 0.2rem solid black; */
-    width: 70%;
+    width: 80%;
     height: 50%;
     margin: 2rem 0;
     box-shadow: 0.2rem 0.2rem 1rem #444;
     border-radius: 0.4rem;
-    /* padding: 2rem 2rem; */
+    position: relative;
+    /* animation: card;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; */
+    transition: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    /* transition-timing-function: infinite; */
+}
+
+/* @keyframes card {
+    0%{left: -40rem}
+    100%{left: 0rem; box-shadow: 0rem 0.3rem 1rem goldenrod;}
+} */
+
+.con .card:hover {
+    transform: rotateZ(360deg);
 }
 
 .con .card p {
