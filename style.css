@@ -54,7 +54,7 @@ html {
     position: relative;
     animation: card;
     animation-duration: 1.5s;
-    animation-delay: 0.5s;
+    /* animation-delay: 0.5s; */
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
 }
@@ -104,7 +104,7 @@ html {
     position: relative;
     animation: img;
     animation-duration: 1.5s;
-    animation-delay: 0.5s;
+    /* animation-delay: 0.5s; */
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
 }
