@@ -1,2 +1,2 @@
 # home
-Landing page (responsive and with some animations)
+Landing page (responsive and with some animations).
